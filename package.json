@@ -1,6 +1,10 @@
 {
   "name": "hotel-backend",
   "version": "1.0.0",
+  "engines": {
+    "npm": "6.1.0",
+    "node": "10.6.0"
+  },
   "description": "Server Side",
   "main": "server.js",
   "scripts": {
