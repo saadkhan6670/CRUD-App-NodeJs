@@ -19,6 +19,10 @@ mongoose.connect('mongodb://nestmetric:nestmetric123@ds113692.mlab.com:13692/nes
     }
 });
 
+app.get('/', (req, res) => {
+  res.send("HELL WORLDDD HOW ARE YOU ALLL !!!")
+})
+
 app.use(cors())
 
 //body parser middleware
