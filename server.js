@@ -4,13 +4,13 @@ var bodyParser = require('body-parser');
 var app = express();
 var port = 5000;
 var mongoose = require('mongoose');
-var Hotels = require('./hotel/model');
+var Modules = require('./api/model');
 var cors = require('cors');
 
 
 //Connect to mongodb
 
-mongoose.connect('mongodb://localhost/hotelDB', { useMongoClient: true}, (err) => {
+mongoose.connect('mongodb://nestmetric:nestmetric123@ds113692.mlab.com:13692/nestmetric', { useMongoClient: true}, (err) => {
     if(err){
         console.log(err);
     }
@@ -25,13 +25,16 @@ app.use(cors())
 app.use(bodyParser.json()); // support json encoded bodies
 app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 
-app.use('/hotel', require('./hotel'));
+app.use('/api', require('./api'));
 
 app.listen(port, function () {
     console.log('Running server on ' + port);
 });
 
 app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.send("Error: "+ err.message);
+    if(err) {
+        res.send("Error: "+ err);
+    }
+    // res.status(err.status || 500);
+   
 });

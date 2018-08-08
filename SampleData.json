@@ -1,0 +1,43 @@
+[
+    {
+      "GroupName": "System Administrators",
+      "Groupcode": "sysadmin",
+      "GroupOwner": 13456,
+      "GroupCategoryID": 100,
+      "GroupNames": "System Administrators",
+      "Groupcodes": "sysadmin",
+      "GroupOwners": 13456,
+      "GroupCategoryIDs": 100
+    },
+    {
+      "GroupName": "Independence High Teachers",
+      "Groupcode": "HS Teachers",
+      "GroupOwner": null,
+      "GroupCategoryID": 101,
+      "GroupNames": "System Administrators",
+      "Groupcodes": "sysadmin",
+      "GroupOwners": 13456,
+      "GroupCategoryIDs": 100
+      
+    },
+    {
+      "GroupName": "John Glenn Middle Teachers",
+      "Groupcode": "MS Teachers",
+      "GroupOwner": 13458,
+      "GroupCategoryID": 102,
+      "GroupNames": "System Administrators",
+      "Groupcodes": "sysadmin",
+      "GroupOwners": 13456,
+      "GroupCategoryIDs": 100
+    },
+    {
+      "GroupName": "Liberty Elementary Teachers",
+      "Groupcode": "Elem Teachers",
+      "GroupOwner": 13559,
+      "GroupCategoryID": 103,
+      "GroupNames": "System Administrators",
+      "Groupcodes": "sysadmin",
+      "GroupOwners": 13456,
+      "GroupCategoryIDs": 100
+    }
+   ]

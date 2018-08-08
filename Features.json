@@ -1,0 +1,48 @@
+[
+    {
+      "title": "State",
+      "category": "all"
+    },
+    {
+      "title": "Account length",
+      "category": "all"
+    },
+    {
+      "title": "Area code",
+      "category": "all"
+    },
+    {
+      "title": "International plan",
+      "category": "all"
+    },{
+        "title": "Total night calls",
+        "category": "all"
+      },
+      {
+        "title": "Total eve minutes",
+        "category": "all"
+      },
+      {
+        "title": "Customer service calls",
+        "category": "all"
+      },
+      {
+        "title": "Total night charge",
+        "category": "all"
+      },{
+        "title": "Total day calls",
+        "category": "all"
+      },
+      {
+        "title": "Number vmail messages",
+        "category": "all"
+      },
+      {
+        "title": "Churn",
+        "category": "all"
+      },
+      {
+        "title": "Voice mail plan",
+        "category": "all"
+      }
+   ]
