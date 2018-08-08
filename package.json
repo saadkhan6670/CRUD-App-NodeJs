@@ -1,6 +1,10 @@
 {
   "name": "crud-app-nodejs",
   "version": "1.0.0",
+  "engines": {
+    "npm": "6.1.0",
+    "node": "10.6.0"
+  },
   "description": "this is a crud app",
   "main": "index.js",
   "devDependencies": {},
