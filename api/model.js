@@ -1,8 +1,6 @@
 'use strict';
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var validate = require('mongoose-validator');
-
 
 var ModuleSchema = new Schema ({
     ModuleName : { type: String },
