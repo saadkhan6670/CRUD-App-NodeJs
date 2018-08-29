@@ -10,6 +10,7 @@ var ModuleSchema = new Schema ({
     allfeatures : { type: Array },
     selectedfeatures : {type: Array },
     targetedfeatures : { type: Array },
+    createdAt : {type: Date , default: Date.now()}
 
 });
 
