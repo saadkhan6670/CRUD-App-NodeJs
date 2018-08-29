@@ -1,9 +1,6 @@
 var mongoose = require('mongoose');
 var Modules = mongoose.model('Modules');
 
-
-
-
 exports.getModule = (req, res, next) => {
 
 Modules.find({}, (err, doc) => {
@@ -38,7 +35,12 @@ exports.moduleUpdate = (req, res) => {
     res.send(Hotel_Data.hotel);
 };
 
-exports.moduleDelete = (req, res) => {
+exports.moduleDelete = (req, res , next) => {
 
-    res.send(resources.filters);
+    Modules.findByIdAndRemove(req.body._id ,(err ,data) => {
+        if(data){
+            return;
+        }
+        else{ next("Cannot delete Module")}
+    })
 }; 

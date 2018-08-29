@@ -1,26 +1,27 @@
 {
-  "name": "hotel-backend",
+  "name": "crud-app-nodejs",
   "version": "1.0.0",
   "engines": {
     "npm": "6.1.0",
     "node": "10.6.0"
   },
-  "description": "Server Side",
-  "main": "server.js",
+  "description": "this is a crud app",
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saadkhan6670/Hotel-Full-Stack.git"
+    "url": "git+https://github.com/saadkhan6670/CRUD-App-NodeJs.git"
   },
-  "author": "Saad",
+  "author": "saad ahsan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saadkhan6670/Hotel-Full-Stack/issues"
+    "url": "https://github.com/saadkhan6670/CRUD-App-NodeJs/issues"
   },
-  "homepage": "https://github.com/saadkhan6670/Hotel-Full-Stack#readme",
+  "homepage": "https://github.com/saadkhan6670/CRUD-App-NodeJs#readme",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
